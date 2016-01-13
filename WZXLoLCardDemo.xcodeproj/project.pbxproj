@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB316CD1C44F53F00729460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB316CC1C44F53F00729460 /* main.m */; };
+		4BB316D01C44F53F00729460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB316CF1C44F53F00729460 /* AppDelegate.m */; };
+		4BB316D31C44F53F00729460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB316D21C44F53F00729460 /* ViewController.m */; };
+		4BB316D61C44F53F00729460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB316D41C44F53F00729460 /* Main.storyboard */; };
+		4BB316D81C44F53F00729460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB316D71C44F53F00729460 /* Assets.xcassets */; };
+		4BB316DB1C44F53F00729460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB316D91C44F53F00729460 /* LaunchScreen.storyboard */; };
+		4BB316E61C44F53F00729460 /* WZXLoLCardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB316E51C44F53F00729460 /* WZXLoLCardDemoTests.m */; };
+		4BB316F11C44F53F00729460 /* WZXLoLCardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB316F01C44F53F00729460 /* WZXLoLCardDemoUITests.m */; };
+		4BB317001C44F60400729460 /* WZXLOLCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB316FF1C44F60400729460 /* WZXLOLCardLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BB316E21C44F53F00729460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB316C01C44F53F00729460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB316C71C44F53F00729460;
+			remoteInfo = WZXLoLCardDemo;
+		};
+		4BB316ED1C44F53F00729460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB316C01C44F53F00729460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB316C71C44F53F00729460;
+			remoteInfo = WZXLoLCardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BB316C81C44F53F00729460 /* WZXLoLCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZXLoLCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB316CC1C44F53F00729460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BB316CE1C44F53F00729460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BB316CF1C44F53F00729460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BB316D11C44F53F00729460 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BB316D21C44F53F00729460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BB316D51C44F53F00729460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BB316D71C44F53F00729460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BB316DA1C44F53F00729460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BB316DC1C44F53F00729460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB316E11C44F53F00729460 /* WZXLoLCardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZXLoLCardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB316E51C44F53F00729460 /* WZXLoLCardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXLoLCardDemoTests.m; sourceTree = "<group>"; };
+		4BB316E71C44F53F00729460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB316EC1C44F53F00729460 /* WZXLoLCardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZXLoLCardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB316F01C44F53F00729460 /* WZXLoLCardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXLoLCardDemoUITests.m; sourceTree = "<group>"; };
+		4BB316F21C44F53F00729460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB316FE1C44F60400729460 /* WZXLOLCardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXLOLCardLayout.h; sourceTree = "<group>"; };
+		4BB316FF1C44F60400729460 /* WZXLOLCardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXLOLCardLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BB316C51C44F53F00729460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316DE1C44F53F00729460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316E91C44F53F00729460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB316BF1C44F53F00729460 = {
+			isa = PBXGroup;
+			children = (
+				4BB316CA1C44F53F00729460 /* WZXLoLCardDemo */,
+				4BB316E41C44F53F00729460 /* WZXLoLCardDemoTests */,
+				4BB316EF1C44F53F00729460 /* WZXLoLCardDemoUITests */,
+				4BB316C91C44F53F00729460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB316C91C44F53F00729460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB316C81C44F53F00729460 /* WZXLoLCardDemo.app */,
+				4BB316E11C44F53F00729460 /* WZXLoLCardDemoTests.xctest */,
+				4BB316EC1C44F53F00729460 /* WZXLoLCardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB316CA1C44F53F00729460 /* WZXLoLCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4BB316FE1C44F60400729460 /* WZXLOLCardLayout.h */,
+				4BB316FF1C44F60400729460 /* WZXLOLCardLayout.m */,
+				4BB316CE1C44F53F00729460 /* AppDelegate.h */,
+				4BB316CF1C44F53F00729460 /* AppDelegate.m */,
+				4BB316D11C44F53F00729460 /* ViewController.h */,
+				4BB316D21C44F53F00729460 /* ViewController.m */,
+				4BB316D41C44F53F00729460 /* Main.storyboard */,
+				4BB316D91C44F53F00729460 /* LaunchScreen.storyboard */,
+				4BB316CB1C44F53F00729460 /* Supporting Files */,
+			);
+			path = WZXLoLCardDemo;
+			sourceTree = "<group>";
+		};
+		4BB316CB1C44F53F00729460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB316DC1C44F53F00729460 /* Info.plist */,
+				4BB316D71C44F53F00729460 /* Assets.xcassets */,
+				4BB316CC1C44F53F00729460 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BB316E41C44F53F00729460 /* WZXLoLCardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB316E51C44F53F00729460 /* WZXLoLCardDemoTests.m */,
+				4BB316E71C44F53F00729460 /* Info.plist */,
+			);
+			path = WZXLoLCardDemoTests;
+			sourceTree = "<group>";
+		};
+		4BB316EF1C44F53F00729460 /* WZXLoLCardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB316F01C44F53F00729460 /* WZXLoLCardDemoUITests.m */,
+				4BB316F21C44F53F00729460 /* Info.plist */,
+			);
+			path = WZXLoLCardDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BB316C71C44F53F00729460 /* WZXLoLCardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB316F51C44F53F00729460 /* Build configuration list for PBXNativeTarget "WZXLoLCardDemo" */;
+			buildPhases = (
+				4BB316C41C44F53F00729460 /* Sources */,
+				4BB316C51C44F53F00729460 /* Frameworks */,
+				4BB316C61C44F53F00729460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZXLoLCardDemo;
+			productName = WZXLoLCardDemo;
+			productReference = 4BB316C81C44F53F00729460 /* WZXLoLCardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BB316E01C44F53F00729460 /* WZXLoLCardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB316F81C44F53F00729460 /* Build configuration list for PBXNativeTarget "WZXLoLCardDemoTests" */;
+			buildPhases = (
+				4BB316DD1C44F53F00729460 /* Sources */,
+				4BB316DE1C44F53F00729460 /* Frameworks */,
+				4BB316DF1C44F53F00729460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB316E31C44F53F00729460 /* PBXTargetDependency */,
+			);
+			name = WZXLoLCardDemoTests;
+			productName = WZXLoLCardDemoTests;
+			productReference = 4BB316E11C44F53F00729460 /* WZXLoLCardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BB316EB1C44F53F00729460 /* WZXLoLCardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB316FB1C44F53F00729460 /* Build configuration list for PBXNativeTarget "WZXLoLCardDemoUITests" */;
+			buildPhases = (
+				4BB316E81C44F53F00729460 /* Sources */,
+				4BB316E91C44F53F00729460 /* Frameworks */,
+				4BB316EA1C44F53F00729460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB316EE1C44F53F00729460 /* PBXTargetDependency */,
+			);
+			name = WZXLoLCardDemoUITests;
+			productName = WZXLoLCardDemoUITests;
+			productReference = 4BB316EC1C44F53F00729460 /* WZXLoLCardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BB316C01C44F53F00729460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = wzx;
+				TargetAttributes = {
+					4BB316C71C44F53F00729460 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4BB316E01C44F53F00729460 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4BB316C71C44F53F00729460;
+					};
+					4BB316EB1C44F53F00729460 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4BB316C71C44F53F00729460;
+					};
+				};
+			};
+			buildConfigurationList = 4BB316C31C44F53F00729460 /* Build configuration list for PBXProject "WZXLoLCardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BB316BF1C44F53F00729460;
+			productRefGroup = 4BB316C91C44F53F00729460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BB316C71C44F53F00729460 /* WZXLoLCardDemo */,
+				4BB316E01C44F53F00729460 /* WZXLoLCardDemoTests */,
+				4BB316EB1C44F53F00729460 /* WZXLoLCardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BB316C61C44F53F00729460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB316DB1C44F53F00729460 /* LaunchScreen.storyboard in Resources */,
+				4BB316D81C44F53F00729460 /* Assets.xcassets in Resources */,
+				4BB316D61C44F53F00729460 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316DF1C44F53F00729460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316EA1C44F53F00729460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB316C41C44F53F00729460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB316D31C44F53F00729460 /* ViewController.m in Sources */,
+				4BB317001C44F60400729460 /* WZXLOLCardLayout.m in Sources */,
+				4BB316D01C44F53F00729460 /* AppDelegate.m in Sources */,
+				4BB316CD1C44F53F00729460 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316DD1C44F53F00729460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB316E61C44F53F00729460 /* WZXLoLCardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316E81C44F53F00729460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB316F11C44F53F00729460 /* WZXLoLCardDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BB316E31C44F53F00729460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB316C71C44F53F00729460 /* WZXLoLCardDemo */;
+			targetProxy = 4BB316E21C44F53F00729460 /* PBXContainerItemProxy */;
+		};
+		4BB316EE1C44F53F00729460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB316C71C44F53F00729460 /* WZXLoLCardDemo */;
+			targetProxy = 4BB316ED1C44F53F00729460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BB316D41C44F53F00729460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB316D51C44F53F00729460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BB316D91C44F53F00729460 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB316DA1C44F53F00729460 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BB316F31C44F53F00729460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BB316F41C44F53F00729460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BB316F61C44F53F00729460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZXLoLCardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXLoLCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BB316F71C44F53F00729460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZXLoLCardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXLoLCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BB316F91C44F53F00729460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZXLoLCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXLoLCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZXLoLCardDemo.app/WZXLoLCardDemo";
+			};
+			name = Debug;
+		};
+		4BB316FA1C44F53F00729460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZXLoLCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXLoLCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZXLoLCardDemo.app/WZXLoLCardDemo";
+			};
+			name = Release;
+		};
+		4BB316FC1C44F53F00729460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZXLoLCardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXLoLCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZXLoLCardDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4BB316FD1C44F53F00729460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZXLoLCardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXLoLCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZXLoLCardDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BB316C31C44F53F00729460 /* Build configuration list for PBXProject "WZXLoLCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB316F31C44F53F00729460 /* Debug */,
+				4BB316F41C44F53F00729460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB316F51C44F53F00729460 /* Build configuration list for PBXNativeTarget "WZXLoLCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB316F61C44F53F00729460 /* Debug */,
+				4BB316F71C44F53F00729460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BB316F81C44F53F00729460 /* Build configuration list for PBXNativeTarget "WZXLoLCardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB316F91C44F53F00729460 /* Debug */,
+				4BB316FA1C44F53F00729460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BB316FB1C44F53F00729460 /* Build configuration list for PBXNativeTarget "WZXLoLCardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB316FC1C44F53F00729460 /* Debug */,
+				4BB316FD1C44F53F00729460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BB316C01C44F53F00729460 /* Project object */;
+}
